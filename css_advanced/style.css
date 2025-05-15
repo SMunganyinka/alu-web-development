@@ -59,7 +59,7 @@ header {
 .hero-section {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-                url('background.png');
+                url('../iamges/background.png');
     background-size: cover;
     /* background-position: center; */
     display: flex;
@@ -269,17 +269,18 @@ blockquote cite span {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.3s;
 }
 
 .play-button i {
     color: #071629;
     font-size: 24px;
+    
 }
 
 .video-thumbnail:hover .play-button {
-    opacity: 1;
+    opacity: 3;
 }
 
 .play-icon {
